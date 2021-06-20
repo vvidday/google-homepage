@@ -1,0 +1,42 @@
+:root{
+    font-size: 10px;
+}
+
+main{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.navbar{
+    list-style-type: none;
+    margin-top: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+li{
+    padding: 0.5rem 0.8rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.sign-in{
+    background-color: rgb(15, 148, 236);
+    color: white;
+    border: transparent;
+    height: 3rem;
+    width: 7.5rem;
+}
+
+.sign-in:hover{
+    background-color: rgb(15, 75, 255);
+}
