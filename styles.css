@@ -2,6 +2,10 @@
     font-size: 10px;
 }
 
+body{
+    margin:0;
+}
+
 main{
     font-family: sans-serif;
     font-size: 1.6rem;
@@ -10,14 +14,30 @@ main{
 .navbar{
     list-style-type: none;
     margin-top: 1rem;
+    margin-right: 1rem;
     padding: 0;
     display: flex;
     justify-content:flex-end;
     align-items: center;
 }
 
+#apps{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#apps:hover{
+    background-color: rgba(34, 34, 34, 0.1);
+}
+
+#appcircle{
+    padding: 0.5rem 0rem;
+}
+
 li{
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .link{
@@ -55,7 +75,7 @@ img{
 
 #searchbar{
     width: 40rem;
-    height: 2.5rem;
+    height: 3rem;
     margin-bottom: 2rem;
     border-radius: 1rem 1rem 1rem 1rem;
     border-style:solid;
@@ -90,4 +110,23 @@ img{
 .search-buttons{
     display: flex;
     justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(17, 17, 17, 0.075)
+}
+
+.footer-links{
+    list-style-type: None;
+    padding: 0;
+    display: flex;
+}
+
+#footer-right{
+    transform:translateX(-2rem);
 }
